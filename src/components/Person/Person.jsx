@@ -1,6 +1,9 @@
+/* eslint-disable prettier/prettier */
 export const Person = ({ person }) => {
   const { name, age, sex, partnerName, isMarried } = person;
-  const partnerSex = sex === 'm' ? 'wife' : 'husband';
+  const partnerSex = sex === 'm'
+    ? 'wife'
+    : 'husband';
 
   return (
     <section className="Person">
